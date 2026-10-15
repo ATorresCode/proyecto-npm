@@ -1,0 +1,27 @@
+{
+  "name": "proyecto-npm",
+  "version": "1.0.0",
+  "description": "Proyecto para configurar npm",
+  "homepage": "https://github.com/ATorresCode/proyecto-npm#readme",
+  "bugs": {
+    "url": "https://github.com/ATorresCode/proyecto-npm/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ATorresCode/proyecto-npm.git"
+  },
+  "license": "ISC",
+  "author": "Alejandro Torres",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "standard": "^17.1.2"
+  }
+}
